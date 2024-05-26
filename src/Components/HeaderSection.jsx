@@ -23,6 +23,11 @@ const menuList = [
     name: "About",
     path: "/about",
   },
+  {
+    id: 5,
+    name: "Contact Us",
+    path: "/contact",
+  },
 ];
 
 function HeaderSection() {

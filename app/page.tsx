@@ -1,10 +1,12 @@
-import { DarkmodeHandler } from "./components/DarkmodeHandler";
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex justify-between p-10 items-center">
-      <h1 className="font-semibold text-3xl">Home Page</h1>
-      <DarkmodeHandler />
+    <div>
+      <h1>THE PAGE</h1>
+      <Image src={"/logo.svg"} alt="logo" width={30} height={30} />
+      <Button>Get Started</Button>
     </div>
   );
 }

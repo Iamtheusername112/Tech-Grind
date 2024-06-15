@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import ThemeController from "../check-us-out/_components/ThemeController";
+import { ModeToggle } from "@/components/ModeToggle";
 
 function Header() {
   return (
@@ -14,9 +16,10 @@ function Header() {
           </Link>
         </div>
 
-        <Link href={"/check-us-out"}>
+        <ModeToggle />
+        {/* <Link href={"/check-us-out"}>
           <Button>Check Us Out</Button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

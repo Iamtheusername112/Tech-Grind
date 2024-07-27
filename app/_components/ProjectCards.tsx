@@ -14,7 +14,7 @@ function ProjectCards() {
       <div className="mt-5 gap-6 shadow-lg">
         <Card>
           <CardHeader>
-            <CardTitle>Card Title</CardTitle>
+            <CardTitle>Project 1</CardTitle>
             <CardDescription>Card Description</CardDescription>
           </CardHeader>
           <CardContent>
@@ -28,7 +28,7 @@ function ProjectCards() {
       <div className="mt-5 gap-6  shadow-lg">
         <Card>
           <CardHeader>
-            <CardTitle>Card Title</CardTitle>
+            <CardTitle>Project 2</CardTitle>
             <CardDescription>Card Description</CardDescription>
           </CardHeader>
           <CardContent>
@@ -39,24 +39,11 @@ function ProjectCards() {
           </CardFooter>
         </Card>
       </div>
+
       <div className="mt-5 gap-6 shadow-lg">
         <Card>
           <CardHeader>
-            <CardTitle>Card Title</CardTitle>
-            <CardDescription>Card Description</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <p>Card Content</p>
-          </CardContent>
-          <CardFooter>
-            <p>Card Footer</p>
-          </CardFooter>
-        </Card>
-      </div>
-      <div className="mt-5 gap-6 shadow-lg">
-        <Card>
-          <CardHeader>
-            <CardTitle>Card Title</CardTitle>
+            <CardTitle>Project 2</CardTitle>
             <CardDescription>Card Description</CardDescription>
           </CardHeader>
           <CardContent>

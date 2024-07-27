@@ -1,7 +1,14 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { FolderKanban, Home, MessageCircleReply, SearchX } from "lucide-react";
+import {
+  Computer,
+  FolderKanban,
+  MessageCircleReply,
+  CalendarDays,
+  SearchX,
+} from "lucide-react";
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect } from "react";
@@ -10,8 +17,8 @@ function SideNav() {
   const menuList = [
     {
       id: 1,
-      name: "Home",
-      icon: Home,
+      name: "Developer",
+      icon: Computer,
       path: "/check-us-out",
     },
     {
@@ -28,6 +35,12 @@ function SideNav() {
     },
     {
       id: 4,
+      name: "Events",
+      icon: CalendarDays,
+      path: "/check-us-out/events",
+    },
+    {
+      id: 5,
       name: "Contact Us",
       icon: MessageCircleReply,
       path: "/check-us-out/contact",

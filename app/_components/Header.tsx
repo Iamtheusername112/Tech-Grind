@@ -13,7 +13,6 @@ function Header() {
             <h1 className="justify-start">Tech Grind</h1>{" "}
           </Link>
         </div>
-
         <ModeToggle />
       </div>
     </div>

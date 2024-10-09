@@ -14,7 +14,7 @@ function CheckUsOut() {
       <div className="mt-5 gap-6 shadow-lg">
         <Card>
           <CardHeader>
-            <CardTitle>Jaden</CardTitle>
+            <CardTitle>Francis</CardTitle>
             <CardDescription>Card Description</CardDescription>
           </CardHeader>
           <CardContent>
@@ -43,7 +43,7 @@ function CheckUsOut() {
       <div className="mt-5 gap-6 shadow-lg">
         <Card>
           <CardHeader>
-            <CardTitle>Francis</CardTitle>
+            <CardTitle>Daniel</CardTitle>
             <CardDescription>Card Description</CardDescription>
           </CardHeader>
           <CardContent>

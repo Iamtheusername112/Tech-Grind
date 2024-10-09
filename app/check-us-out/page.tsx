@@ -10,7 +10,7 @@ import {
 
 function CheckUsOut() {
   return (
-    <div className="grid grid-cols-2 p-5 gap-6 md:grid-cols-3">
+    <div className="grid grid-cols-1 p-5 gap-6 md:grid-cols-3">
       <div className="mt-5 gap-6 shadow-lg">
         <Card>
           <CardHeader>

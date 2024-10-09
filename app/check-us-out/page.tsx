@@ -7,6 +7,10 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import ReadMore from "../_components/ReadMore";
+import Francis from "../_components/Francis";
+import Jaden from "../_components/Jaden";
+import Daniel from "../_components/Daniel";
 
 function CheckUsOut() {
   return (
@@ -21,7 +25,7 @@ function CheckUsOut() {
             <p>Card Content</p>
           </CardContent>
           <CardFooter>
-            <p>Card Footer</p>
+            <Francis />
           </CardFooter>
         </Card>
       </div>
@@ -35,7 +39,7 @@ function CheckUsOut() {
             <p>Card Content</p>
           </CardContent>
           <CardFooter>
-            <p>Card Footer</p>
+            <Jaden />
           </CardFooter>
         </Card>
       </div>
@@ -50,7 +54,7 @@ function CheckUsOut() {
             <p>Card Content</p>
           </CardContent>
           <CardFooter>
-            <p>Card Footer</p>
+            <Daniel />
           </CardFooter>
         </Card>
       </div>

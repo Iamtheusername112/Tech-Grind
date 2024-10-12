@@ -17,28 +17,28 @@ function ContactUs() {
 
           <form>
             <input
-              className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow mb-4 appearance-none border rounded w-full py-2 px-3  text-gray-600 leading-tight focus:outline-none focus:shadow-outline"
               type="text"
               placeholder="Name"
               name="name"
             />
 
             <input
-              className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
               type="email"
               placeholder="Email"
               name="email"
             />
 
             <input
-              className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-600 leading-tight focus:outline-none focus:shadow-outline"
               type="text"
               placeholder="Subject"
               name="_subject"
             />
 
             <textarea
-              className="shadow mb-4 min-h-0 appearance-none border rounded h-64 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow mb-4 min-h-0 appearance-none border rounded h-64 w-full py-2 px-3 text-gray-600 leading-tight focus:outline-none focus:shadow-outline"
               typeof="text"
               placeholder="Type your message here..."
               name="message"
